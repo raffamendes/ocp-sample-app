@@ -17,6 +17,6 @@ public class SampleResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/podName")
     public String getPodName() {
-        return "Hello from Quarkus REST";
+        return "PodName: "+podName;
     }
 }
